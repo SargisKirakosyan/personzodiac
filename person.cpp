@@ -9,40 +9,28 @@ std::string personYear::Person::getYearAnimal() {
   switch(year) {
     case 0:
       return "Կապիկ";
-      break;
     case 1:
       return "Աքլոր";
-      break;
     case 2:
       return "Շուն";
-      break;
     case 3:
-      return "Խոզ";
-      break;    
+      return "Խոզ";    
     case 4:
       return "Առնետ";
-      break;
     case 5:
-      return "Ցուլ";
-      break;    
+      return "Ցուլ";    
     case 6:
-      return "Վագր";
-      break;    
+      return "Վագր";    
     case 7:
-      return "Ճագար";
-      break;    
+      return "Ճագար";    
     case 8:
-      return "Վիշապ";
-      break;    
+      return "Վիշապ";    
     case 9:
-      return "Օձ";
-      break;    
+      return "Օձ";    
     case 10:
       return "Ձի";
-      break;
     case 11:
       return "Այծ";
-      break;
   }
   return 0;
 }
@@ -53,73 +41,61 @@ std::string personYear::Person::getZodiac() {
         return "Ջրհոս";
       }
       return "Այծեղջյուր";
-      break;
     case 2:
       if(birthDay<19) {
         return "Ջրհոս";
       }
       return "Ձկներ";
-      break;
     case 3:
       if(birthDay<=20) {
         return "Ձկներ";
       }
       return "Խոյ";
-      break;
     case 4:
       if(birthDay<=20) {
         return "Խոյ";
       }
       return "Ցուլ";
-      break;
     case 5:
       if(birthDay>=20) {
         return "Ցուլ";
       }
       return "Երկվորյակներ";
-      break;
     case 6:
       if(birthDay<=21) {
         return "Երկվորյակներ";
       }
       return "Խեցգետին";
-      break;
     case 7:
       if(birthDay<=22) {
         return "Խեցգետին";
       }
       return "Առյուծ";
-      break;
     case 8:
       if(birthDay<=23) {
         return "Առյուծ";
       }
       return "Կույս";
-      break;
     case 9:
       if(birthDay<=23) {
         return "Կույս";
       }
       return "Կշեռք";
-      break;
     case 10:
       if(birthDay<=23) {
         return "Կշեռք";
       }
       return "Կարիճ";
-      break;
     case 11:
       if(birthDay<=22) {
         return "Կարիճ";
       }
       return "Աղեղնավոր";
-      break;
     case 12:
       if(birthDay<=21) {
         return "Աղեղնավոր";
       }
       return "Այծեղջյուր";
-      break;
   }
   return 0;
 }
