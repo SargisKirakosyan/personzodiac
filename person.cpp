@@ -1,4 +1,3 @@
-#include "person.h"
 
 personYear::Person::Person(std::string fn, std::string ln, int by, int bm, int bd) : firstName(fn), lastName(ln), birthYear(by), birthMonth(bm), birthDay(bd)  {}
 
